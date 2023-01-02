@@ -56,13 +56,13 @@ pkg install ruby
 apt install bash-completion -y
 	cd /data/data/com.termux/files/home
 
-	mv t9 t99
-	cd /data/data/com.termux/files/home/t99 
+	mv t9 t9
+	cd /data/data/com.termux/files/home/t9 
 mv 99 /data/data/com.termux/files/home
 
 	rm -f /data/data/com.termux/files/usr/etc/motd
  rm -f  /data/data/com.termux/files/usr/etc/bash.bashrc  
- cp /data/data/com.termux/files/home/t99/bash.bashrc /data/data/com.termux/files/usr/etc
+ cp /data/data/com.termux/files/home/t9/bash.bashrc /data/data/com.termux/files/usr/etc
 
 
 
@@ -70,7 +70,7 @@ mv 99 /data/data/com.termux/files/home
 
 cd /data/data/com.termux/files/usr/etc/nginx
 rm -f nginx.conf
-mv /data/data/com.termux/files/home/t99/nginx.conf /data/data/com.termux/files/usr/etc/nginx
+mv /data/data/com.termux/files/home/t9/nginx.conf /data/data/com.termux/files/usr/etc/nginx
 
 
 	cd
