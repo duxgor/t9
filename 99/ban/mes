@@ -1,0 +1,110 @@
+#! /bin/bash/
+ko="$(date +%b)"
+#ali () {
+
+############  Colores  #################
+rojx='\e[101m'
+rojs='\e[41m'
+roj='\033[31m'
+ro2='\033[91m'
+
+ver='\033[32m'
+ver0='\033[1;32m'
+ve2='\033[92m'
+ve20='\033[1;32m'
+
+ama='\033[33m'
+am0='\033[1;33m'
+
+azu='\033[34m'
+az0='\033[1;34m'
+
+pur='\033[35m'
+
+cy='\033[36m'
+cy0='\033[1;36m'
+##---------------
+sub='\e[4m'
+fos='\e[5m'
+
+fin='\033[01;37m'
+#######     Fin Colores ##############----
+
+#                                         /dev/null 2>&1 &
+#echo "$az"
+
+#cat << EOF > /xg/0r/.betas/i/aliaz
+touch /data/data/com.termux/files/home/99/0/aliaz
+echo "#! /bin/bash/" >> /data/data/com.termux/files/home/99/0/aliaz
+
+
+#echo "az='\033[34m'" >> /xg/0r/.betas/i/aliaz
+
+#echo "clear" >> /xg/0r/.betas/i/aliaz
+#echo "azz=$(echo '\e[34m')" >> /xg/0r/.betas/i/aliaz
+
+
+
+ 
+
+
+
+
+echo "alias Jan='echo "乇 ｎ ｅ Ꞅ Ｏ"'"  >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias Feb='echo "千 e ฿ Ꞅ Σ 尺 𝐎"'"  >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias Mar='echo "Ｍ ᗩ ᖇ Z 0"'"  >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias Apr='echo "Ａｂｒ!ｌ"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias May='echo "Ｍａｙ0"'" >> /data/data/com.termux/files/home/99/0/aliaz  
+echo "alias Jun='echo "Ｊｕｎｉ𝐎"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias Jul='echo "Ｊｕｌｉo"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias Aug='echo "Ａｇｏｓｔ0"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias Sep='echo "Ｓｅｐｔｉｅｍｂｒ3"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias Oct='echo "Ｏｃｔｕｂｒ3"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias Nov='echo "Ｎｏｖｉｅｍｂｒｅ"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias Dec='echo "ƉｉｃｉｅｍｂｒΣ"'" >> /data/data/com.termux/files/home/99/0/aliaz
+
+
+
+#alias llo='echo -e "$az NOCHE" '
+
+
+echo $ko >> /data/data/com.termux/files/home/99/0/aliaz
+sh /data/data/com.termux/files/home/99/0/aliaz
+rm -f /data/data/com.termux/files/home/99/0/aliaz
+
+#sh TardeXam
+#kol=$(date +%H)
+#date +%H
+
+
+
+#echo " $kol " >> /xg/0r/.betas/i/pam
+#cat pam
+#sed '1d' /xg/0r/.betas/i/pam
+
+
+
+
+
+#EOF
+
+
+#}
+
+
+
+
+
+
+#ali
+
+
+
+
+
+
+
+
+
+
+

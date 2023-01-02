@@ -1,0 +1,20 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+ama='\033[33m'
+
+ip="$(ip route show|grep ' src ' |cut -d' ' -f9)"
+fin='\033[01;37m'
+
+
+# cat /data/data/com.termux/files/home/99/ban/bancatt
+
+echo "
+
+$ama
+ ＣｏｎｅＸｉｏｎ：：：
+
+       ᑎETᑕᗩT
+
+ ::$ip    
+$fin"
+cat /data/data/com.termux/files/home/99/ban/bancat2

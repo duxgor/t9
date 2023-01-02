@@ -1,0 +1,2 @@
+#! /bin/bash/
+mpv --no-video https://mdstrm.com/audio/6102ce7ef33d0b0830ec3adc/live.m3u8

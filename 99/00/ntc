@@ -1,0 +1,32 @@
+#!/data/data/com.termux/files/usr/bin/bash
+rojx='\e[101m'
+rojs='\e[41m'
+roj='\033[1;31m'
+ro2='\033[91m'
+
+ver='\033[32m'
+ver0='\033[1;32m'
+ve2='\033[92m'                                             ve20='\033[1;32m'
+
+ama='\033[33m'
+am0='\033[1;33m'
+
+azu='\033[34m'
+az0='\033[1;34m'
+neg='\e[1m'
+pur='\033[35m'
+                                                           cy='\033[36m'                                              #cy0='\033[1;36m'                                          ##---------------                                          sub='\e[1;4m'
+#fos='\e[5m'
+gri='\e[2m'
+
+fin='\033[01;37m'
+clear
+echo "
+       ░B Λ ᄃ K  D Ө Ө Я"
+
+ cat /data/data/com.termux/files/home/99/ban/bandoor    
+echo "$roj
+      A ʙ ʀ ɪ ᴇ ɴ ᴅ ᴏ   C ᴏ ɴ ᴇ x ɪ ᴏ ɴ . . .
+$fin
+ C o ∏$ama   T ᑌ ᑎ ᑎ E ᒪ ... $fin
+         ┌──────┤📂"

@@ -1,0 +1,106 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+
+
+inici0 () {
+	echo ""
+
+####                 keylgger-teclado ruta
+#### cat  /data/data/com.termux/files/home/storage/shared/Android/data/com.abifog.lokiboard
+
+
+pkg update -y
+apt update -y
+pkg upgrade -y
+
+
+pkg install curl  -y
+apt install toilet -y
+apt install cmatrix -y 
+
+apt install tree -y 
+apt install nginx -y
+pkg install unrar -y
+pkg install nano nmap -y
+pkg install wget -y 
+#pkg install git -y
+apt install openssh -y
+#apt install unrar -y
+apt install unzip -y
+apt install zip -y
+apt install w3m -y
+apt install dpkg -y
+apt install htop -y
+pkg install ccrypt -y
+pkg install elinks -y
+
+pkg install asciinema -y
+
+pkg install python3 -y
+python3 -m pip install -U pip
+python3 -m pip install --upgrade pip
+
+pkg install ffmpeg -y
+
+
+pip install -U youtube-dl
+pip install mpv
+#pkg install mpv -y
+pip install ffmpeg 
+
+#bash <(curl -fsSL "https://git.io/abhacker-repo") --install ruby=2.7.2
+
+pkg install ruby 
+
+
+apt install bash-completion -y
+	cd /data/data/com.termux/files/home
+
+	mv t9 t99
+	cd /data/data/com.termux/files/home/t99 
+mv 99 /data/data/com.termux/files/home
+
+	rm -f /data/data/com.termux/files/usr/etc/motd
+ rm -f  /data/data/com.termux/files/usr/etc/bash.bashrc  
+ cp /data/data/com.termux/files/home/t99/bash.bashrc /data/data/com.termux/files/usr/etc
+
+
+
+
+
+cd /data/data/com.termux/files/usr/etc/nginx
+rm -f nginx.conf
+mv /data/data/com.termux/files/home/t99/nginx.conf /data/data/com.termux/files/usr/etc/nginx
+
+
+	cd
+	
+	
+#	wget https://www.mediafire.com/file/r44lsv0hbds9id6/apkk.tar
+termux-setup-storage
+	
+	clear
+
+	ls
+} 
+
+#read varr
+
+#####################################
+#    case $kaos in
+#	     a ) clear; banne1;;
+#	     z ) sleep 1; exit;;
+#	     * ) sleep 1; echo "[1;31m
+#  Opción incorrecta";sleep 1; clear; enterchaoss;;
+#    esac
+####################################
+
+#   if [ $varr = "1" ]; then
+# clear
+# 	 echo "
+# 
+# "
+# else
+# echo ""
+# fi
+inici0

@@ -1,0 +1,18 @@
+#! /bin/bash/
+
+ama='\033[33m'
+
+
+fin='\033[01;37m'
+
+
+echo "
+
+  ᄃӨПΣXi0П $ama
+    丂丂卄 $fin
+ 
+
+ Red Local
+
+"
+ssh -p 666 weed@192.168.43.29

@@ -1,0 +1,107 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+ko=$(date +%H)
+#ali () {
+
+############  Colores  #################
+rojx='\e[101m'
+rojs='\e[41m'
+roj='\033[31m'
+ro2='\033[91m'
+
+ver='\033[32m'
+ver0='\033[1;32m'
+ve2='\033[92m'
+ve20='\033[1;32m'
+
+ama='\033[33m'
+am0='\033[1;33m'
+
+azu='\033[34m'
+az0='\033[1;34m'
+
+pur='\033[35m'
+pur0='\033[1;35m'
+
+r0s='\033[45m'
+
+cy='\033[36m'
+cy0='\033[1;36m'
+##---------------
+sub='\e[4m'
+fos='\e[5m'
+
+gri='\e[2m'
+
+fin='\033[01;37m'
+#######     Fin Colores ##############----
+
+#                                         /dev/null 2>&1 &
+#echo "$az"
+
+#cat << EOF > /xg/0r/.betas/i/aliaz
+touch /data/data/com.termux/files/home/99/0/aliaz
+echo "#!/data/data/com.termux/files/usr/bin/bash" >> /data/data/com.termux/files/home/99/0/aliaz
+
+
+#echo "az='\033[34m'" >> /xg/0r/.betas/i/aliaz
+
+#echo "clear" >> /xg/0r/.betas/i/aliaz
+#echo "azz=$(echo '\e[34m')" >> /xg/0r/.betas/i/aliaz
+
+echo "alias 00='echo "$azu"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 01='echo "$cy"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 02='echo "$pur"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 03='echo "$azu"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 04='echo "$pur"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 05='echo "$cy"'" >> /data/data/com.termux/files/home/99/0/aliaz  
+echo "alias 06='echo "$azu"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 07='echo "$ver"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 08='echo "$ama"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 09='echo "$ver"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 10='echo "$ama"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 11='echo "$ver"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 12='echo ""'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 13='echo "$roj"'" >>  /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 14='echo "$ama"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 15='echo "$roj"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 16='echo "$ama"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 17='echo "$roj"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 18='echo "$azu"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 19='echo "$pur"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 20='echo "$cy"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 21='echo "$azu"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 22='echo "$pur"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias 23='echo "$cy"'" >> /data/data/com.termux/files/home/99/0/aliaz
+#alias llo='echo -e "$az NOCHE" '
+
+
+echo $ko >> /data/data/com.termux/files/home/99/0/aliaz
+sh /data/data/com.termux/files/home/99/0/aliaz
+rm -f /data/data/com.termux/files/home/99/0/aliaz
+
+#sh TardeXam
+#kol=$(date +%H)
+#date +%H
+
+
+
+#echo " $kol " >> /xg/0r/.betas/i/pam
+#cat pam
+#sed '1d' /xg/0r/.betas/i/pam
+
+
+
+
+
+#EOF
+
+
+#}
+
+
+
+
+
+
+#ali

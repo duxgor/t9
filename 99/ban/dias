@@ -1,0 +1,103 @@
+#! /bin/bash/
+ko="$(date +%a)"
+#ali () {
+
+############  Colores  #################
+rojx='\e[101m'
+rojs='\e[41m'
+roj='\033[31m'
+ro2='\033[91m'
+
+ver='\033[32m'
+ver0='\033[1;32m'
+ve2='\033[92m'
+ve20='\033[1;32m'
+
+ama='\033[33m'
+am0='\033[1;33m'
+
+azu='\033[34m'
+az0='\033[1;34m'
+
+pur='\033[35m'
+
+cy='\033[36m'
+cy0='\033[1;36m'
+##---------------
+sub='\e[4m'
+fos='\e[5m'
+
+fin='\033[01;37m'
+#######     Fin Colores ##############----
+
+#                                         /dev/null 2>&1 &
+#echo "$az"
+
+#cat << EOF > /xg/0r/.betas/i/aliaz
+touch /data/data/com.termux/files/home/99/0/aliaz
+echo "#! /bin/bash/" >> /data/data/com.termux/files/home/99/0/aliaz
+
+
+#echo "az='\033[34m'" >> /xg/0r/.betas/i/aliaz
+
+#echo "clear" >> /xg/0r/.betas/i/aliaz
+#echo "azz=$(echo '\e[34m')" >> /xg/0r/.betas/i/aliaz
+
+
+
+ 
+
+
+
+
+echo "alias Mon='echo " L Ʉ П E Ƨ "'"  >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias Tue='echo "爪卂尺ㄒ乇丂"'"  >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias Wed='echo "ＭI乇Яᑕ0ᒪE丂"'"  >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias Thu='echo "Ｊｕｅｖｅｓ"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias Fri='echo "V I 乇 Я П £ Ƨ"'" >> /data/data/com.termux/files/home/99/0/aliaz  
+echo "alias Sat='echo "丂 ᗩ ᗷ ∆ ᗪ 0"'" >> /data/data/com.termux/files/home/99/0/aliaz
+echo "alias Sun='echo "D 0 m ¡ ᑎ G o"'" >> /data/data/com.termux/files/home/99/0/aliaz
+
+#alias llo='echo -e "$az NOCHE" '
+
+
+echo $ko >> /data/data/com.termux/files/home/99/0/aliaz
+sh /data/data/com.termux/files/home/99/0/aliaz
+rm -f /data/data/com.termux/files/home/99/0/aliaz
+
+#sh TardeXam
+#kol=$(date +%H)
+#date +%H
+
+
+
+#echo " $kol " >> /xg/0r/.betas/i/pam
+#cat pam
+#sed '1d' /xg/0r/.betas/i/pam
+
+
+
+
+
+#EOF
+
+
+#}
+
+
+
+
+
+
+#ali
+
+
+
+
+
+
+
+
+
+
+

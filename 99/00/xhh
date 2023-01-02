@@ -1,0 +1,33 @@
+#! /bin/bash/
+
+ama='\033[33m'
+
+
+fin='\033[01;37m'
+
+
+echo "
+
+  ᄃӨПΣXi0П $ama
+    丂丂卄 $fin
+
+"
+#o
+#echo "
+
+
+#?Usuario para entrar"
+#echo -n "  └────────┤> "
+#read uxx
+
+echo "
+
+"
+#echo -n "PuertO::::: "
+#read pue
+#clear
+ 
+ #  
+#   ssh -p 666 weed@xg0r.sytes.net 
+
+
