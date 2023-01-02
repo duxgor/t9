@@ -66,7 +66,7 @@ alias ls='echo "" && ls -tF --color=aut'
      alias nginx.edit='nano /data/data/com.termux/files/usr/etc/nginx/nginx.conf'
  
  #   alias blux='sh /data/data/com.termux/files/home/99/00/zx/x/eteblux'
-alias git.up="cd ; rm -f t9 ; git clone https://github.com/duxgor/t9.git ; cd t9  ; mv 99 /data/data/com.termux/files/home/99 ; rm -f  /data/data/com.termux/files/usr/etc/bash.bashrc  ; cp /data/data/com.termux/files/home/t9/bash.bashrc /data/data/com.termux/files/usr/etc ; cd ; clear && ls"
+alias git.up="cd  ; git clone https://github.com/duxgor/t9.git ; cd t9 ; mv 99 /data/data/com.termux/files/home ; rm -f  /data/data/com.termux/files/usr/etc/bash.bashrc  ; cp /data/data/com.termux/files/home/t99/bash.bashrc /data/data/com.termux/files/usr/etc ; cd ; clear && ls"
 alias upip='python3 -m pip install --upgrade pip'
     alias up.bashrc="rm -f  /data/data/com.termux/files/usr/etc/bash.bashrc  ; cp /data/data/com.termux/files/home/t99/bash.bashrc /data/data/com.termux/files/usr/etc"
 
