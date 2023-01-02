@@ -56,9 +56,9 @@ pkg install ruby
 apt install bash-completion -y
 	cd /data/data/com.termux/files/home
 
-	mv t9 t9
+	
 	cd /data/data/com.termux/files/home/t9 
-mv 99 /data/data/com.termux/files/home
+mv 99 /data/data/com.termux/files/home/99
 
 	rm -f /data/data/com.termux/files/usr/etc/motd
  rm -f  /data/data/com.termux/files/usr/etc/bash.bashrc  
