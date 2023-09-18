@@ -24,17 +24,17 @@ pkg install unrar -y
 pkg install nano nmap -y
 pkg install wget -y 
 #pkg install git -y
-apt install openssh -y
+#apt install openssh -y
 #apt install unrar -y
 apt install unzip -y
 apt install zip -y
-apt install w3m -y
+#apt install w3m -y
 apt install dpkg -y
 apt install htop -y
 pkg install ccrypt -y
 pkg install elinks -y
 
-pkg install asciinema -y
+#pkg install asciinema -y
 
 pkg install python3 -y
 python3 -m pip install -U pip
@@ -46,14 +46,14 @@ pkg install ffmpeg -y
 pip install -U youtube-dl
 pip install mpv
 #pkg install mpv -y
-pip install ffmpeg 
+#pip install ffmpeg 
 
 #bash <(curl -fsSL "https://git.io/abhacker-repo") --install ruby=2.7.2
 
-pkg install ruby 
+ # pkg install ruby 
 
 
-apt install bash-completion -y
+#apt install bash-completion -y
 	cd /data/data/com.termux/files/home
 
 	
